@@ -9,4 +9,5 @@ for i in range(1,6):
     heildarstig=heildarstig+stig
     print(player, 'er með', stig, 'í þessari umferð')
 print('Heildar stigafjöldi þinn í þessari umferð er:', heildarstig)
+print('Raptors 2020 champs')
 
