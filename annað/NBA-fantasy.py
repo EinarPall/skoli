@@ -8,5 +8,12 @@ for i in range(1,6):
     stig=pts+reb+ast
     heildarstig=heildarstig+stig
     print(player, 'er með', stig, 'í þessari umferð')
-print('Heildar stigafjöldi þinn í þessari umferð er:', heildarstig)
+print('Heildar stigafjöldi þinn í þessari umferð er:',heildarstig)
+
+# pg  rondo 
+# sg  covington
+# sf  LEBRON    
+# pf  AD
+# C   KUZMA
+
 

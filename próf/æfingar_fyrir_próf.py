@@ -63,7 +63,7 @@
 #         lowest_num = numbers[i-1]
 # print(lowest_num)
 
-# virkar ekki
+# vikar ekki
 # for i in range(1,4):
 #     num = int(input('veldu tölu: '))
 #     'num' + str(i) = num 
@@ -74,14 +74,97 @@
 # print(u)
 
 ########## 10
-n =  int(input('veldu tölu: '))
-if n < 10 and n >= 0:               
-    print('Less than 10')
-elif n >=10 and n < 20:
-    print('between 10 and 20')
-elif n >= 20:
-    print('the value is too high!')
-elif n < 0:
-    print('too low')
+# n =  int(input('veldu tölu: '))
+# if n < 10 and n >= 0:               
+#     print('Less than 10')
+# elif n >=10 and n < 20:
+#     print('between 10 and 20')
+# elif n >= 20:
+#     print('the value is too high!')
+# elif n < 0:
+#     print('too low')
 
 ########### 11
+
+# a = int(input('veldu tölu: '))
+# b = int(input('veldu aðra tölu: '))
+# choice = int(input('veldu 1,2,3: '))
+
+# if choice == 1:
+#     c = a+b 
+# elif choice == 2:
+#     c = a-b 
+# elif choice == 3:
+#     c = a*b
+# else:
+#     print('invalid input')
+# print(c)
+
+############ 12
+
+# for i in range(1,11):
+#     print(i,end=' ')
+
+############# 13
+# for i in range(-5,11):
+#     print(i,end=' ')
+
+############## 14
+# for i in range(3,14):
+#     print(i*2)
+
+############### 15
+
+# multiplier = int(input('veldu tölu '))
+# for i in range(2,16):
+#     print(i*multiplier)
+
+################ 16
+
+# for i in range(10,-1,-1):
+#     print(i)
+
+################# 17
+
+# for i in range(15,2,-2):
+#     print(i)
+
+################## 18/19 
+
+# low = int(input('lægra gildi '))
+# high = int(input('hærra gildi '))
+# if low < high :
+#     for i in range(low,high):
+#         print(i)
+# else:
+#     print('Þetta er vitlaust')
+
+#################### 20
+
+# turns = int(input('hvursu margar tölur viltu tík '))
+# for i in range(turns):
+#     u = int(input('veldu tölu '))
+#     print('þú valdir: ',u)
+
+
+############################ 29
+
+count_minus = 0
+count_plus = 0
+sum_plus = 0
+sum_minus = 0 
+turns = int(input('veldu '))
+for i in range(turns):
+    u = int(input('veldu tölu '))
+    if u < 0:
+        count_minus += 1
+        sum_minus += u
+    elif u > 0:
+        count_plus += 1
+        sum_plus += u 
+print('mínusar:', count_minus)
+print('plusar:', count_plus)
+print('sum plus',sum_plus)
+print('sum minus',sum_minus)
+
+
