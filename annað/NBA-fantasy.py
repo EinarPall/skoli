@@ -8,6 +8,7 @@ for i in range(1,6):
     stig=pts+reb+ast
     heildarstig=heildarstig+stig
     print(player, 'er með', stig, 'í þessari umferð')
+<<<<<<< HEAD
 print('Heildar stigafjöldi þinn í þessari umferð er:',heildarstig)
 
 # pg  rondo 
@@ -17,3 +18,6 @@ print('Heildar stigafjöldi þinn í þessari umferð er:',heildarstig)
 # C   KUZMA
 
 
+=======
+print('Heildar stigafjöldi þinn í þessari umferð er:', heildarstig)
+>>>>>>> c31d1873572e4243ef47e73897b937656c54418a

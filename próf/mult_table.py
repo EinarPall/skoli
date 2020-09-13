@@ -1,3 +1,5 @@
+## mult_table
+
 number_to_multiply = int(input("Input number to multiply: ")) # Do not change this line
 how_often = int(input("Input how often to multiply: ")) # Do not change this line
 

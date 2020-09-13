@@ -10,9 +10,8 @@ if start_int >= 2:
     print(round_output)
     while output > 2:
         output = output**(1/2)
-        output = round(output,4)
+        round_output = round(output,4)
         print(round_output)
-
 
 
 
