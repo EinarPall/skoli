@@ -1,6 +1,6 @@
 from datetime import datetime
-date_format="%d/%m/%Y"
-upphafs_dagsetning=datetime.strptime('25/9/2009', date_format)
+date_format="%d.%m.%Y"
+upphafs_dagsetning=datetime.strptime('25.9.2009', date_format)
 mfs=16637000000
 mph=38241
 mpd=mph*24

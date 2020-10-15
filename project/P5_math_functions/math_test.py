@@ -40,64 +40,49 @@ def approximate_euler(n_str):
         total = round(total,5)
         return print('Euler approximation:',total,'\n') 
 
-
+def valid_choice(option):
+    option = input('Enter option: ')
+    if option in 'abc': 
+        n = input('Enter N: ')
+    return n , option
 
 def print_input():
-    options = 'abc'
     print('Please choose one of the options below:')
     print('a. Display the sum of the first N natural numbers.')
     print('b. Display the sum of the first N Fibonacci numbers.')
     print('c. Display the approximate value of e using N terms.')
     print('x. Exit from the program.\n')
-    option = input('Enter option: ')
-    if option in options:
-        n = input('Enter N: ')
-        return n , option
-    else:
-        n = 0
-        return n , option
+    valid_choice('')
+    return
 
-
-def menu_or_not(option):
-    n = 0
-    if option in 'abc':
-        option = input('Enter option: ')
-        if option in 'abc':
-            n = input('Enter N: ')
-        return n , option
-    else:
-        n_option = print_input()
-        n = n_option[0]
-        option = n_option[1]
-    return n , option
 
 
 # byrjun 
 n_option = print_input()
-n = n_option[0]  
-option = n_option[1]
-
+#n = n_option[0]  
+#option = n_option[1]
+u = 0
 
 while option != 'x':
     if option == 'a':
         sum_natural(n)
+        u = valid_choice(option) 
     elif option == 'b':
-        sum_fibonacci(n) 
+        sum_fibonacci(n)
+        u = valid_choice(option)  
     elif option == 'c':
-        approximate_euler(n) 
+        approximate_euler(n)
+        u = valid_choice(option) 
     else:
         print('Unrecognized option',option)
-    n_options = menu_or_not(option)
-    n = n_options[0]
-    option = n_options[1]
+        print_input()
+    n = u[0]  
+    option = u[1]
 
 
 
 
-def valid_choice(option):
-    option = input('Enter option: ')
-    n = input('Enter N: ')
 
-
-
-
+# n_options = menu_or_not(option)
+# n = n_options[0]
+# option = n_options[1]
