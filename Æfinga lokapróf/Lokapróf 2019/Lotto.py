@@ -16,7 +16,6 @@ def open_file(filename):
 
 # strengur sem bætir við stjörnu
 
-
 def make_lotto_list(file_object):
     ''' fall sem setur lotto línur úr file upp í lista '''
     line_list = []
@@ -67,9 +66,6 @@ def winning_nums_valid_or_not(winning_nums):
         return True
     else:
         return False    # print(False)
-
-
-
 
 
 def main():
