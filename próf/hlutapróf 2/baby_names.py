@@ -2,7 +2,7 @@
 ##
 
 # dæmi3-5
-
+ 
 # 2 # fall sem opnar skjalið
 def open_file(filename):
     try:
@@ -11,6 +11,8 @@ def open_file(filename):
     except: 
         return print('File {} not found'.format(filename))
 
+
+# þetta fall kemur úr stock prices úr lausnum
 # 2  fall sem setur upp í lista fyrstu tvær línurnar
 def get_data_list(file_object):
     data_list = [] # list list string er uppbyggingin

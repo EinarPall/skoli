@@ -1,0 +1,10 @@
+1; Carlsen, Magnus; NOR; 2839; 1990
+2; Caruana, Fabiano; USA; 2827; 1992
+3; Mamedyarov, Shakhriyar; AZE; 2820; 1985
+4; Ding, Liren; CHN; 2804; 1992
+5; Aronian, Levon; ARM; 2780; 1982
+6; Giri, Anish; NED; 2780; 1994
+7; Vachier-Lagrave, Maxime; FRA; 2780; 1990
+8; Kramnik, Vladimir; RUS; 2779; 1975
+9; So, Wesley; USA; 2776; 1993
+10; Anand, Viswanathan; IND; 2771; 1969
