@@ -6,7 +6,6 @@ MAX_GRADES = 3
 # nota dict með values sem er einkunnalist raða key í stafrósröð
 
 
-
 def students_and_grades():
     ''' takes input of students and grades and puts in dictionary '''
     student_count = 0

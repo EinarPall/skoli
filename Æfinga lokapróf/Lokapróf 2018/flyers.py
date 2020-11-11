@@ -22,7 +22,6 @@ def get_flight_list(a_file):
     return flight_dict, nr_of_flights
 
 
-
 #def get_nr_of_countries(flight_dict):
  #   for key,value in flight_dict:
 
@@ -31,8 +30,6 @@ def print_flights(flights_dict):
     for key,value in flights_dict.items():
         print('\t{]:'.format(key))
 
-        
-        
 
 
 def main():
@@ -41,15 +38,13 @@ def main():
     print(flight_dict)
     print(flights)
     #print(flight_dict)
- 
+
+
     sorted_flights = sorted(flights.items(), key=operator.itemgetter(1,0), reverse=True)
     top_flyer = [sorted_flights[i] for i in range(1)]
     print(top_flyer)
 
+    print_flights(sorted_flights)
     #flights = get_flights(data)
-
-
-
-
 
 main()
